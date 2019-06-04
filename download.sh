@@ -4,7 +4,7 @@ curl -s https://api.github.com/repos/davidnajar/LedTracker/releases/latest \
 | grep "browser_download_url.*tgz" \
 | cut -d : -f 2,3 \
 | tr -d \" \
-| wget -nvi -
+| wget -i -
 
 
 echo Uncompressing
