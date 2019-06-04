@@ -9,5 +9,5 @@ curl -s https://api.github.com/repos/davidnajar/LedTracker/releases/latest \
 
 echo Uncompressing
 mkdir ./ledtracker
-tar zxvf ledtracker.tgz -C /ledtracker
+tar zxvf ledtracker.tgz -C ./ledtracker
 echo Done! Run  sudo install.sh to install prerequisites
